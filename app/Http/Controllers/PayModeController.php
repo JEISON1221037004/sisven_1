@@ -15,7 +15,7 @@ class PayModeController extends Controller
 
     public function create()
     {
-        return view('pay_modes.create');
+        return view('pay_modes.new');
     }
 
     public function store(Request $request)

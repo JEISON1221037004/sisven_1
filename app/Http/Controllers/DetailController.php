@@ -15,7 +15,7 @@ class DetailController extends Controller
 
     public function create()
     {
-        return view('details.create');
+        return view('details.new');
     }
 
     public function store(Request $request)
